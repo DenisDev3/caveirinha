@@ -95,7 +95,9 @@ const Limitado: Game[] = [
 
 const Home = () => (
   <>
-    <Carousel />
+    <div>
+      <Carousel />
+    </div>
     <Banner />
     <ProductsList games={promocoes} title="Promoções" background="white" />
     <ProductsList games={Limitado} title="Estoque Limitado" background="gray" />
