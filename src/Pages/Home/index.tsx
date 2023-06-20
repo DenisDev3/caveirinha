@@ -11,6 +11,7 @@ import cola from '../../assets/images/cola.png'
 import cola2 from '../../assets/images/cola2.png'
 import bisnaga from '../../assets/images/bisnaga.png'
 import { title } from 'process'
+import Carousel from '../../components/Carousel'
 
 const promocoes: Game[] = [
   {
@@ -94,6 +95,7 @@ const Limitado: Game[] = [
 
 const Home = () => (
   <>
+    <Carousel />
     <Banner />
     <ProductsList games={promocoes} title="Promoções" background="white" />
     <ProductsList games={Limitado} title="Estoque Limitado" background="gray" />
