@@ -41,7 +41,7 @@ export default function App() {
   )
 
   return (
-    <UMERROAQUI>
+    <>
       <div ref={sliderRef} className="keen-slider">
         <div className="keen-slider__slide number-slide1">1</div>
         <div className="keen-slider__slide number-slide2">2</div>
@@ -50,6 +50,6 @@ export default function App() {
         <div className="keen-slider__slide number-slide5">5</div>
         <div className="keen-slider__slide number-slide6">6</div>
       </div>
-    </UMERROAQUI>
+    </>
   )
 }
